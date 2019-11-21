@@ -1,0 +1,71 @@
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .topnav a:hover {
+    color:turquoise;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: turquoise;
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  .box {
+    width: 1300px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 1.1%;
+    margin: 0px;
+    margin-top: 10px;
+    /* float: center; */
+  }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    margin-left: 45px;
+    margin-top: 65px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 50px;
+  }
+  body {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body a:hover {
+    color:turquoise;
+  }
+  .ux {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .aboutme {
+        text-align: justify;
+        text-justify: inter-word;
+      }
